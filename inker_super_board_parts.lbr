@@ -937,6 +937,7 @@
 <wire x1="4.8" y1="24.6" x2="7.2" y2="24.6" width="0.3" layer="21"/>
 <wire x1="7.2" y1="24.6" x2="7.2" y2="19.6" width="0.3" layer="21"/>
 <wire x1="4.8" y1="24.6" x2="4.8" y2="19.6" width="0.3" layer="21"/>
+<smd name="GND" x="0" y="10.67" dx="4.5" dy="4.5" layer="1" stop="no" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -2881,7 +2882,7 @@ https://www.seeedstudio.com/ESP32-CAM-Development-Board-with-camer-p-3153.html
 </deviceset>
 <deviceset name="ESP-32S" prefix="U">
 <description>&lt;b&gt;WiFi-BT-BLE MCU module&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://en.ai-thinker.com/esp32/spec/esp32s"&gt; Datasheet &lt;/a&gt;</description>
+Source: &lt;a href="https://www.es.co.th/Schemetic/PDF/ESP32.PDF"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP-32S" x="0" y="0"/>
 </gates>
