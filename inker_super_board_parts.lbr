@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -169,7 +169,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by Frijo Francis&lt;/author&gt;</description>
 <packages>
 <package name="QFP80P900X900X120-32N">
 <description>&lt;b&gt;32A&lt;/b&gt;&lt;br&gt;
@@ -833,6 +833,40 @@
 <wire x1="7.45" y1="-2.3" x2="7.45" y2="3.8" width="0.2" layer="21"/>
 <wire x1="7.45" y1="3.8" x2="-2.45" y2="3.8" width="0.2" layer="21"/>
 <wire x1="-2.45" y1="3.8" x2="-2.45" y2="0" width="0.2" layer="21"/>
+</package>
+<package name="113990580">
+<description>&lt;b&gt;113990580-3&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.11" diameter="1.665" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="1.11" diameter="1.665"/>
+<pad name="3" x="0" y="-5.08" drill="1.11" diameter="1.665"/>
+<pad name="4" x="0" y="-7.62" drill="1.11" diameter="1.665"/>
+<pad name="5" x="0" y="-10.16" drill="1.11" diameter="1.665"/>
+<pad name="6" x="0" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="7" x="0" y="-15.24" drill="1.11" diameter="1.665"/>
+<pad name="8" x="0" y="-17.78" drill="1.11" diameter="1.665"/>
+<pad name="9" x="22.86" y="0" drill="1.11" diameter="1.665" shape="square"/>
+<pad name="10" x="22.86" y="-2.54" drill="1.11" diameter="1.665"/>
+<pad name="11" x="22.86" y="-5.08" drill="1.11" diameter="1.665"/>
+<pad name="12" x="22.86" y="-7.62" drill="1.11" diameter="1.665"/>
+<pad name="13" x="22.86" y="-10.16" drill="1.11" diameter="1.665"/>
+<pad name="14" x="22.86" y="-12.7" drill="1.11" diameter="1.665"/>
+<pad name="15" x="22.86" y="-15.24" drill="1.11" diameter="1.665"/>
+<pad name="16" x="22.86" y="-17.78" drill="1.11" diameter="1.665"/>
+<text x="11.43" y="-15.42" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="11.43" y="-15.42" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.07" y1="4.58" x2="24.93" y2="4.58" width="0.2" layer="51"/>
+<wire x1="24.93" y1="4.58" x2="24.93" y2="-35.42" width="0.2" layer="51"/>
+<wire x1="24.93" y1="-35.42" x2="-2.07" y2="-35.42" width="0.2" layer="51"/>
+<wire x1="-2.07" y1="-35.42" x2="-2.07" y2="4.58" width="0.2" layer="51"/>
+<wire x1="-2.07" y1="4.58" x2="24.93" y2="4.58" width="0.1" layer="21"/>
+<wire x1="24.93" y1="4.58" x2="24.93" y2="-35.42" width="0.1" layer="21"/>
+<wire x1="24.93" y1="-35.42" x2="-2.07" y2="-35.42" width="0.1" layer="21"/>
+<wire x1="-2.07" y1="-35.42" x2="-2.07" y2="4.58" width="0.1" layer="21"/>
+<wire x1="-3.07" y1="5.58" x2="25.93" y2="5.58" width="0.1" layer="51"/>
+<wire x1="25.93" y1="5.58" x2="25.93" y2="-36.42" width="0.1" layer="51"/>
+<wire x1="25.93" y1="-36.42" x2="-3.07" y2="-36.42" width="0.1" layer="51"/>
+<wire x1="-3.07" y1="-36.42" x2="-3.07" y2="5.58" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2092,6 +2126,30 @@
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="113990580">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="5V" x="0" y="0" length="middle"/>
+<pin name="GND_1" x="0" y="-2.54" length="middle"/>
+<pin name="IO12" x="0" y="-5.08" length="middle"/>
+<pin name="IO13" x="0" y="-7.62" length="middle"/>
+<pin name="IO15" x="0" y="-10.16" length="middle"/>
+<pin name="IO14" x="0" y="-12.7" length="middle"/>
+<pin name="IO2" x="0" y="-15.24" length="middle"/>
+<pin name="IO4" x="0" y="-17.78" length="middle"/>
+<pin name="3V3" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="IO16" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO0" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_2" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="VCC" x="30.48" y="-10.16" length="middle" rot="R180"/>
+<pin name="U0R" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="U0T" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="GND_3" x="30.48" y="-17.78" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA328P-AU" prefix="IC">
@@ -2656,6 +2714,50 @@ Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; Datashee
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="8201585P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8201585P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="113990580" prefix="IC">
+<description>&lt;b&gt;WiFi Development Tools (802.11) ESP32-CAM Development Board(with camera)&lt;/b&gt;&lt;p&gt;
+
+
+https://www.seeedstudio.com/ESP32-CAM-Development-Board-with-camer-p-3153.html 
+&lt;br&gt;Source: &lt;a href="https://github.com/SeeedDocument/Outsourcing/raw/master/113990580 ESP32-CAM/113990580 ESP32-CAM Product Specification.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="113990580" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="113990580">
+<connects>
+<connect gate="G$1" pin="3V3" pad="9"/>
+<connect gate="G$1" pin="5V" pad="1"/>
+<connect gate="G$1" pin="GND_1" pad="2"/>
+<connect gate="G$1" pin="GND_2" pad="12"/>
+<connect gate="G$1" pin="GND_3" pad="16"/>
+<connect gate="G$1" pin="IO0" pad="11"/>
+<connect gate="G$1" pin="IO12" pad="3"/>
+<connect gate="G$1" pin="IO13" pad="4"/>
+<connect gate="G$1" pin="IO14" pad="6"/>
+<connect gate="G$1" pin="IO15" pad="5"/>
+<connect gate="G$1" pin="IO16" pad="10"/>
+<connect gate="G$1" pin="IO2" pad="7"/>
+<connect gate="G$1" pin="IO4" pad="8"/>
+<connect gate="G$1" pin="U0R" pad="14"/>
+<connect gate="G$1" pin="U0T" pad="15"/>
+<connect gate="G$1" pin="VCC" pad="13"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="WiFi Development Tools (802.11) ESP32-CAM Development Board(with camera)" constant="no"/>
+<attribute name="HEIGHT" value="3mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Seeed Studio" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="113990580" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="713-113990580" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=713-113990580" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
