@@ -6923,6 +6923,254 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="inker_super_board_parts">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="ESP-32S">
+<description>&lt;b&gt;ESP-32s&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-8.9" y="18.01" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-8.9" y="16.74" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="-8.9" y="15.47" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="-8.9" y="14.2" dx="1.5" dy="0.9" layer="1"/>
+<smd name="5" x="-8.9" y="12.93" dx="1.5" dy="0.9" layer="1"/>
+<smd name="6" x="-8.9" y="11.66" dx="1.5" dy="0.9" layer="1"/>
+<smd name="7" x="-8.9" y="10.39" dx="1.5" dy="0.9" layer="1"/>
+<smd name="8" x="-8.9" y="9.12" dx="1.5" dy="0.9" layer="1"/>
+<smd name="9" x="-8.9" y="7.85" dx="1.5" dy="0.9" layer="1"/>
+<smd name="10" x="-8.9" y="6.58" dx="1.5" dy="0.9" layer="1"/>
+<smd name="11" x="-8.9" y="5.31" dx="1.5" dy="0.9" layer="1"/>
+<smd name="12" x="-8.9" y="4.04" dx="1.5" dy="0.9" layer="1"/>
+<smd name="13" x="-8.9" y="2.77" dx="1.5" dy="0.9" layer="1"/>
+<smd name="14" x="-8.9" y="1.5" dx="1.5" dy="0.9" layer="1"/>
+<smd name="15" x="-5.71" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="16" x="-4.44" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="17" x="-3.17" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="18" x="-1.9" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="19" x="-0.63" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="20" x="0.64" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="21" x="1.91" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="22" x="3.18" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="23" x="4.45" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="24" x="5.72" y="0" dx="1.5" dy="0.9" layer="1" rot="R90"/>
+<smd name="25" x="8.9" y="1.5" dx="1.5" dy="0.9" layer="1"/>
+<smd name="26" x="8.9" y="2.77" dx="1.5" dy="0.9" layer="1"/>
+<smd name="27" x="8.9" y="4.04" dx="1.5" dy="0.9" layer="1"/>
+<smd name="28" x="8.9" y="5.31" dx="1.5" dy="0.9" layer="1"/>
+<smd name="29" x="8.9" y="6.58" dx="1.5" dy="0.9" layer="1"/>
+<smd name="30" x="8.9" y="7.85" dx="1.5" dy="0.9" layer="1"/>
+<smd name="31" x="8.9" y="9.12" dx="1.5" dy="0.9" layer="1"/>
+<smd name="32" x="8.9" y="10.39" dx="1.5" dy="0.9" layer="1"/>
+<smd name="33" x="8.9" y="11.66" dx="1.5" dy="0.9" layer="1"/>
+<smd name="34" x="8.9" y="12.93" dx="1.5" dy="0.9" layer="1"/>
+<smd name="35" x="8.9" y="14.2" dx="1.5" dy="0.9" layer="1"/>
+<smd name="36" x="8.9" y="15.47" dx="1.5" dy="0.9" layer="1"/>
+<smd name="37" x="8.9" y="16.74" dx="1.5" dy="0.9" layer="1"/>
+<smd name="38" x="8.9" y="18.01" dx="1.5" dy="0.9" layer="1"/>
+<text x="6.289" y="27.187" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-6.372" y="-2.545" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9" y1="25.5" x2="9" y2="25.5" width="0.2" layer="51"/>
+<wire x1="9" y1="25.5" x2="9" y2="0" width="0.2" layer="51"/>
+<wire x1="9" y1="0" x2="-9" y2="0" width="0.2" layer="51"/>
+<wire x1="-9" y1="0" x2="-9" y2="25.5" width="0.2" layer="51"/>
+<wire x1="-9" y1="25.5" x2="9" y2="25.5" width="0.2" layer="21"/>
+<wire x1="-9" y1="25.5" x2="-9" y2="19.5" width="0.2" layer="21"/>
+<wire x1="-9" y1="19.5" x2="-9" y2="18.998" width="0.2" layer="21"/>
+<wire x1="9" y1="25.5" x2="9" y2="19.5" width="0.2" layer="21"/>
+<wire x1="9" y1="19.5" x2="9" y2="18.998" width="0.2" layer="21"/>
+<wire x1="-9" y1="0" x2="-6.596" y2="0" width="0.2" layer="21"/>
+<wire x1="9" y1="0" x2="6.596" y2="0" width="0.2" layer="21"/>
+<circle x="-10.278" y="18.155" radius="0.061" width="0.2" layer="25"/>
+<wire x1="-9" y1="19.5" x2="9" y2="19.5" width="0.2" layer="21"/>
+<wire x1="-7.4" y1="20.6" x2="-7.4" y2="24.6" width="0.3" layer="21"/>
+<wire x1="-7.4" y1="24.6" x2="-4.6" y2="24.6" width="0.3" layer="21"/>
+<wire x1="-4.6" y1="24.6" x2="-4.6" y2="21.8" width="0.3" layer="21"/>
+<wire x1="-4.6" y1="21.8" x2="-2.4" y2="21.8" width="0.3" layer="21"/>
+<wire x1="-2.4" y1="21.8" x2="-2.4" y2="24.6" width="0.3" layer="21"/>
+<wire x1="-2.4" y1="24.6" x2="0" y2="24.6" width="0.3" layer="21"/>
+<wire x1="0" y1="24.6" x2="0" y2="21.8" width="0.3" layer="21"/>
+<wire x1="0" y1="21.8" x2="2.2" y2="21.8" width="0.3" layer="21"/>
+<wire x1="2.2" y1="21.8" x2="2.2" y2="24.6" width="0.3" layer="21"/>
+<wire x1="2.2" y1="24.6" x2="4.8" y2="24.6" width="0.3" layer="21"/>
+<wire x1="4.8" y1="24.6" x2="7.2" y2="24.6" width="0.3" layer="21"/>
+<wire x1="7.2" y1="24.6" x2="7.2" y2="19.6" width="0.3" layer="21"/>
+<wire x1="4.8" y1="24.6" x2="4.8" y2="19.6" width="0.3" layer="21"/>
+<pad name="GND@VIA1" x="-1.8" y="12.6" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA2" x="-0.9" y="12.6" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA3" x="0" y="12.6" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA4" x="0.9" y="12.6" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA5" x="1.8" y="12.6" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA6" x="-1.8" y="11.7" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA7" x="-0.9" y="11.7" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA8" x="0" y="11.7" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA9" x="0.9" y="11.7" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA10" x="1.8" y="11.7" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA11" x="-1.8" y="10.8" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA12" x="-0.9" y="10.8" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA13" x="0" y="10.8" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA14" x="0.9" y="10.8" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA15" x="1.8" y="10.8" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA16" x="-1.8" y="9.9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA17" x="-0.9" y="9.9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA18" x="0" y="9.9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA19" x="0.9" y="9.9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA20" x="1.8" y="9.9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA21" x="-1.8" y="9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA22" x="-0.9" y="9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA23" x="0" y="9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA24" x="0.9" y="9" drill="0.127" diameter="0.254"/>
+<pad name="GND@VIA25" x="1.8" y="9" drill="0.127" diameter="0.254"/>
+<polygon width="0.127" layer="1">
+<vertex x="-2.25" y="13.05"/>
+<vertex x="-2.25" y="8.55"/>
+<vertex x="2.25" y="8.55"/>
+<vertex x="2.25" y="13.05"/>
+</polygon>
+<wire x1="-2.25" y1="13.05" x2="-2.25" y2="8.55" width="0.127" layer="1"/>
+<wire x1="-2.25" y1="8.55" x2="2.25" y2="8.55" width="0.127" layer="1"/>
+<wire x1="2.25" y1="8.55" x2="2.25" y2="13.05" width="0.127" layer="1"/>
+<wire x1="2.25" y1="13.05" x2="-2.25" y2="13.05" width="0.127" layer="1"/>
+<polygon width="0.127" layer="29">
+<vertex x="-2.25" y="13.05"/>
+<vertex x="-2.25" y="8.55"/>
+<vertex x="2.25" y="8.55"/>
+<vertex x="2.25" y="13.05"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP-32S">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-48.26" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-48.26" x2="5.08" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-48.26" width="0.254" layer="94"/>
+<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="GND_1" x="0" y="0" length="middle"/>
+<pin name="3V3" x="0" y="-2.54" length="middle"/>
+<pin name="EN" x="0" y="-5.08" length="middle"/>
+<pin name="SENSOR_VP" x="0" y="-7.62" length="middle"/>
+<pin name="SENSOR_VN" x="0" y="-10.16" length="middle"/>
+<pin name="IO34" x="0" y="-12.7" length="middle"/>
+<pin name="IO35" x="0" y="-15.24" length="middle"/>
+<pin name="IO32" x="0" y="-17.78" length="middle"/>
+<pin name="IO33" x="0" y="-20.32" length="middle"/>
+<pin name="IO25" x="0" y="-22.86" length="middle"/>
+<pin name="IO26" x="0" y="-25.4" length="middle"/>
+<pin name="IO27" x="0" y="-27.94" length="middle"/>
+<pin name="IO14" x="0" y="-30.48" length="middle"/>
+<pin name="IO12" x="0" y="-33.02" length="middle"/>
+<pin name="GND_2" x="0" y="-35.56" length="middle"/>
+<pin name="IO13" x="0" y="-38.1" length="middle"/>
+<pin name="SHD/SHD2" x="0" y="-40.64" length="middle"/>
+<pin name="SWP/SD3" x="0" y="-43.18" length="middle"/>
+<pin name="SCS/CMD" x="0" y="-45.72" length="middle"/>
+<pin name="SCK/CLK" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="SDO/SD0" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="SDI/SD1" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO15" x="38.1" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO2" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="IO0" x="38.1" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO4" x="38.1" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO16" x="38.1" y="-17.78" length="middle" rot="R180"/>
+<pin name="IO17" x="38.1" y="-20.32" length="middle" rot="R180"/>
+<pin name="IO5" x="38.1" y="-22.86" length="middle" rot="R180"/>
+<pin name="IO18" x="38.1" y="-25.4" length="middle" rot="R180"/>
+<pin name="IO19" x="38.1" y="-27.94" length="middle" rot="R180"/>
+<pin name="NC" x="38.1" y="-30.48" length="middle" direction="nc" rot="R180"/>
+<pin name="IO21" x="38.1" y="-33.02" length="middle" rot="R180"/>
+<pin name="RXD0" x="38.1" y="-35.56" length="middle" rot="R180"/>
+<pin name="TXD0" x="38.1" y="-38.1" length="middle" rot="R180"/>
+<pin name="IO22" x="38.1" y="-40.64" length="middle" rot="R180"/>
+<pin name="IO23" x="38.1" y="-43.18" length="middle" rot="R180"/>
+<pin name="GND_3" x="38.1" y="-45.72" length="middle" rot="R180"/>
+<pin name="GND_4" x="17.78" y="7.62" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP-32S" prefix="U">
+<description>&lt;b&gt;WiFi-BT-BLE MCU module&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;&lt;b&gt;Description&lt;/p&gt;&lt;/b&gt;
+The ESP32-S is an Original ESP32 series module from Ai-Thinker. This wireless module based on ESP32, supports WiFi and Bluetooth 4.2, with built-in 32Mbit Flash, in the SMD38 package. There're also onboard PCB antenna and metal shield. In short, it's a small form factor and fairly high cost-effective wireless module.
+
+With the pre-flashed AT firmware, you can control the module through UART AT commands easily. The module integrates MCU inside, supports other developments like Lua/Micropython/Arduino to achieve flexible and fast prototyping, make it easy to integrate the module into IoT applications.&lt;p&gt;
+
+Ai-Thinker's ESP32-S WiFi+BT SoC Module has a highly competitive package size and ultra-low power technology. Esp32-S can be widely used in various networking, for home automation, industrial wireless control, baby monitors, wearable electronics products, wireless position sensing devices, wireless positioning system signals, and other networking applications. Esp32-S is packaged in SMD, through the standard SMT equipment to achieve rapid production of products, to provide customers with high reliability of the connection, especially for Automation, large-scale, low-cost modern production methods, It’s suitable for all kinds of Internet of things hardware terminal occasions.
+
+&lt;p&gt;&lt;b&gt;Applications:&lt;/p&gt;&lt;/b&gt;
+The ESP32-S suit for many IoT applications such as:
+
+&lt;br&gt;Smart home
+&lt;br&gt;Intelligent building
+&lt;br&gt;Industrial automation
+&lt;br&gt;Wearable devices
+&lt;br&gt;IP camera
+&lt;br&gt;Intelligent agriculture
+
+&lt;p&gt;Source: &lt;a href="https://www.es.co.th/Schemetic/PDF/ESP32.PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP-32S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP-32S">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND_1" pad="1"/>
+<connect gate="G$1" pin="GND_2" pad="15"/>
+<connect gate="G$1" pin="GND_3" pad="38"/>
+<connect gate="G$1" pin="GND_4" pad="GND@VIA1 GND@VIA2 GND@VIA3 GND@VIA4 GND@VIA5 GND@VIA6 GND@VIA7 GND@VIA8 GND@VIA9 GND@VIA10 GND@VIA11 GND@VIA12 GND@VIA13 GND@VIA14 GND@VIA15 GND@VIA16 GND@VIA17 GND@VIA18 GND@VIA19 GND@VIA20 GND@VIA21 GND@VIA22 GND@VIA23 GND@VIA24 GND@VIA25"/>
+<connect gate="G$1" pin="IO0" pad="25"/>
+<connect gate="G$1" pin="IO12" pad="14"/>
+<connect gate="G$1" pin="IO13" pad="16"/>
+<connect gate="G$1" pin="IO14" pad="13"/>
+<connect gate="G$1" pin="IO15" pad="23"/>
+<connect gate="G$1" pin="IO16" pad="27"/>
+<connect gate="G$1" pin="IO17" pad="28"/>
+<connect gate="G$1" pin="IO18" pad="30"/>
+<connect gate="G$1" pin="IO19" pad="31"/>
+<connect gate="G$1" pin="IO2" pad="24"/>
+<connect gate="G$1" pin="IO21" pad="33"/>
+<connect gate="G$1" pin="IO22" pad="36"/>
+<connect gate="G$1" pin="IO23" pad="37"/>
+<connect gate="G$1" pin="IO25" pad="10"/>
+<connect gate="G$1" pin="IO26" pad="11"/>
+<connect gate="G$1" pin="IO27" pad="12"/>
+<connect gate="G$1" pin="IO32" pad="8"/>
+<connect gate="G$1" pin="IO33" pad="9"/>
+<connect gate="G$1" pin="IO34" pad="6"/>
+<connect gate="G$1" pin="IO35" pad="7"/>
+<connect gate="G$1" pin="IO4" pad="26"/>
+<connect gate="G$1" pin="IO5" pad="29"/>
+<connect gate="G$1" pin="NC" pad="32"/>
+<connect gate="G$1" pin="RXD0" pad="34"/>
+<connect gate="G$1" pin="SCK/CLK" pad="20"/>
+<connect gate="G$1" pin="SCS/CMD" pad="19"/>
+<connect gate="G$1" pin="SDI/SD1" pad="22"/>
+<connect gate="G$1" pin="SDO/SD0" pad="21"/>
+<connect gate="G$1" pin="SENSOR_VN" pad="5"/>
+<connect gate="G$1" pin="SENSOR_VP" pad="4"/>
+<connect gate="G$1" pin="SHD/SHD2" pad="17"/>
+<connect gate="G$1" pin="SWP/SD3" pad="18"/>
+<connect gate="G$1" pin="TXD0" pad="35"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="WiFi-BT-BLE MCU module" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Ai-Thinker" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ESP-32s" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6984,6 +7232,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="SUPPLY3" library="inker_blue_board_parts" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="inker_blue_board_parts" deviceset="3.3V" device=""/>
 <part name="S2" library="inker_blue_board_parts" deviceset="1437566-3" device=""/>
+<part name="U2" library="inker_super_board_parts" deviceset="ESP-32S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7149,6 +7398,10 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="S2" gate="G$1" x="78.74" y="78.74" smashed="yes">
 <attribute name="NAME" x="78.74" y="80.264" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="78.74" y="78.232" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U2" gate="G$1" x="17.78" y="81.28" smashed="yes">
+<attribute name="NAME" x="52.07" y="88.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="52.07" y="86.36" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
