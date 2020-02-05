@@ -7,10 +7,10 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="63" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -495,8 +495,8 @@
 </description>
 <pad name="1" x="0" y="0" drill="1.05" diameter="1.575" shape="square"/>
 <pad name="2" x="14.1" y="0" drill="1.05" diameter="1.575"/>
-<text x="12.192" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="2.286" y="-2.413" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="13.992" y="1.94" size="0.5" layer="25" align="center">&gt;NAME</text>
+<text x="0.486" y="-2.013" size="0.5" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-1.038" y1="1.525" x2="15.137" y2="1.525" width="0.05" layer="51"/>
 <wire x1="15.137" y1="1.525" x2="15.137" y2="-1.525" width="0.05" layer="51"/>
 <wire x1="15.137" y1="-1.525" x2="-1.038" y2="-1.525" width="0.05" layer="51"/>
@@ -819,8 +819,8 @@
 <pad name="1" x="0" y="0" drill="1.35" diameter="2.025" shape="square"/>
 <pad name="2" x="2.5" y="0" drill="1.35" diameter="2.025"/>
 <pad name="3" x="5" y="0" drill="1.35" diameter="2.025"/>
-<text x="4.699" y="5.207" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0.635" y="-3.429" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="6.269" y="4.337" size="0.5" layer="25" align="center">&gt;NAME</text>
+<text x="-1.165" y="-2.729" size="0.5" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.7" y1="-2.55" x2="-2.7" y2="4.05" width="0.05" layer="51"/>
 <wire x1="-2.7" y1="4.05" x2="7.7" y2="4.05" width="0.05" layer="51"/>
 <wire x1="7.7" y1="4.05" x2="7.7" y2="-2.55" width="0.05" layer="51"/>
@@ -829,10 +829,10 @@
 <wire x1="-2.45" y1="3.8" x2="7.45" y2="3.8" width="0.1" layer="51"/>
 <wire x1="7.45" y1="3.8" x2="7.45" y2="-2.3" width="0.1" layer="51"/>
 <wire x1="7.45" y1="-2.3" x2="-2.45" y2="-2.3" width="0.1" layer="51"/>
-<wire x1="0" y1="-2.3" x2="7.45" y2="-2.3" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="-2.3" x2="7.45" y2="-2.3" width="0.2" layer="21"/>
 <wire x1="7.45" y1="-2.3" x2="7.45" y2="3.8" width="0.2" layer="21"/>
 <wire x1="7.45" y1="3.8" x2="-2.45" y2="3.8" width="0.2" layer="21"/>
-<wire x1="-2.45" y1="3.8" x2="-2.45" y2="0" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="3.8" x2="-2.45" y2="-2.3" width="0.2" layer="21"/>
 </package>
 <package name="113990580">
 <description>&lt;b&gt;113990580-3&lt;/b&gt;&lt;br&gt;
