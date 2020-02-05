@@ -2,7 +2,6 @@ desktop.ini
 *s#1
 *b#
 *.l#1
-inker_super_board_parts_3d/113990580.stp
 inker_super_board_parts.l##
 inker_super_board_parts.l#2
 inker_super_board_parts.l#4
@@ -14,3 +13,10 @@ inker_super_board_parts.l#8
 inker_super_board_parts.l#9
 inker_super_board_parts.lbr
 inker_super_board_ver0.s#2
+dxfimp.scr
+inker_super_board_ver0.b#1
+inker_super_board_ver0.b#2
+*.b#3
+inker_super_board_ver0.b#4
+inker_super_board_ver0.s#3
+inker_super_board_ver0.s#4
