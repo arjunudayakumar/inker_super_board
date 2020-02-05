@@ -7187,7 +7187,7 @@ The ESP32-S suit for many IoT applications such as:
 </groups>
 <parts>
 <part name="FRAME1" library="inker_blue_board_parts" deviceset="FRAME-A4L" device="">
-<attribute name="CNAME" value="Arduino Clone"/>
+<attribute name="CNAME" value="INKER SUPER BOARD"/>
 <attribute name="CREVISION" value="ver 1.0"/>
 <attribute name="DESIGNER" value="Frijo Francis"/>
 </part>
