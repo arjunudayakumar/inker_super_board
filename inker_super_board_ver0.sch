@@ -7314,9 +7314,9 @@ The ESP32-S suit for many IoT applications such as:
 <attribute name="NAME" x="207.264" y="61.341" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="207.264" y="56.261" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="IC2" gate="G$1" x="55.88" y="152.4" smashed="yes" grouprefs="POWER1">
-<attribute name="NAME" x="48.006" y="145.161" size="1.778" layer="95"/>
-<attribute name="VALUE" x="48.26" y="155.575" size="1.778" layer="96"/>
+<instance part="IC2" gate="G$1" x="55.88" y="149.86" smashed="yes" grouprefs="POWER1">
+<attribute name="NAME" x="48.006" y="142.621" size="1.778" layer="95"/>
+<attribute name="VALUE" x="48.26" y="153.035" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="27.94" y="152.4" smashed="yes" grouprefs="POWER1">
 <attribute name="NAME" x="27.94" y="160.274" size="1.778" layer="95" font="vector" align="bottom-center"/>
@@ -7495,11 +7495,10 @@ The ESP32-S suit for many IoT applications such as:
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91" grouprefs="POWER1"/>
+<wire x1="40.64" y1="139.7" x2="55.88" y2="142.24" width="0.1524" layer="91" grouprefs="POWER1"/>
 <pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="139.7" x2="71.12" y2="139.7" width="0.1524" layer="91" grouprefs="POWER1"/>
-<wire x1="55.88" y1="144.78" x2="55.88" y2="139.7" width="0.1524" layer="91" grouprefs="POWER1"/>
-<junction x="55.88" y="139.7" grouprefs="POWER1"/>
+<wire x1="55.88" y1="142.24" x2="71.12" y2="139.7" width="0.1524" layer="91" grouprefs="POWER1"/>
+<junction x="55.88" y="142.24" grouprefs="POWER1"/>
 <pinref part="S1" gate="G$1" pin="6"/>
 <wire x1="33.02" y1="144.78" x2="38.1" y2="144.78" width="0.1524" layer="91" grouprefs="POWER1"/>
 <wire x1="38.1" y1="144.78" x2="38.1" y2="139.7" width="0.1524" layer="91" grouprefs="POWER1"/>
@@ -7649,7 +7648,7 @@ The ESP32-S suit for many IoT applications such as:
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="VO"/>
-<wire x1="66.04" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91" grouprefs="POWER1"/>
+<wire x1="66.04" y1="149.86" x2="71.12" y2="152.4" width="0.1524" layer="91" grouprefs="POWER1"/>
 <junction x="71.12" y="152.4" grouprefs="POWER1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="71.12" y1="152.4" x2="71.12" y2="147.32" width="0.1524" layer="91" grouprefs="POWER1"/>
@@ -7690,7 +7689,7 @@ The ESP32-S suit for many IoT applications such as:
 <net name="VIN" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="VI"/>
-<wire x1="45.72" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91" grouprefs="POWER1"/>
+<wire x1="45.72" y1="149.86" x2="40.64" y2="152.4" width="0.1524" layer="91" grouprefs="POWER1"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="55.88" y1="162.56" x2="40.64" y2="162.56" width="0.1524" layer="91" grouprefs="POWER1"/>
 <wire x1="40.64" y1="162.56" x2="40.64" y2="152.4" width="0.1524" layer="91" grouprefs="POWER1"/>
